@@ -33,9 +33,9 @@ public class MainActivity extends AppCompatActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
 
-        Button button6 = (Button) findViewById(R.id.button6);
+        Button button = (Button) findViewById(R.id.capStone_button);
 
-        button6.setOnClickListener(new View.OnClickListener() {
+        button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Context context = getApplicationContext();
                 CharSequence text = "This button will launch my capstone app!";
